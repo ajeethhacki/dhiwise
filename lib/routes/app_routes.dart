@@ -106,9 +106,9 @@ class AppRoutes {
     ),
     GetPage(
       name: initialRoute,
-      page: () => BaselineReportingScreen(),
+      page: () => ExpressDeliveryScreen(),
       bindings: [
-        BaselineReportingBinding(),
+        ExpressDeliveryBinding(),
       ],
     )
   ];

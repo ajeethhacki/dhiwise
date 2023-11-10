@@ -9,6 +9,11 @@ class ExpressDeliveryController extends GetxController {
   @override
   void onReady() {
     super.onReady();
+    Future.delayed(const Duration(milliseconds: 3000), () {
+      Get.offNamed(
+        AppRoutes.performanceTrackerScreen,
+      );
+    });
   }
 
   @override
